@@ -25,7 +25,7 @@ xmean = np.mean(x)
 ymean = np.mean(y)
 num=0
 den=0
-for i in range(len(x)):
+for i in range(len(x)): 
     num+=(x[i]-xmean)*(y[i]-ymean)
     den+=(x[i]-xmean)**2
 m = num/den
